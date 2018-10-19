@@ -1,0 +1,4 @@
+# Lab2 sample files
+
+# Bash door
+/etc/ossec_is_here         ! Just a test

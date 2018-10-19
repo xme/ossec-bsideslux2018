@@ -1,0 +1,5 @@
+#!/bin/bash
+# I'm not malicious, just idlying ;)
+while true; do
+  sleep 5
+done

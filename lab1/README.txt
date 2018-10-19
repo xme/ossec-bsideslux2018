@@ -32,6 +32,7 @@ Steps
 1. Your instance is running a local resolver (bind9). All queries are logged in
 /var/log/named/queries.log. First, test the server:
 
+- Check resolv.conf
 - Try to resolve a domain name
 
 # host www.google.com
@@ -61,7 +62,7 @@ Save the file, and restart OSSEC
 
 # cd /var/ossec/etc
 
-# vi local_decoder.conf
+# vi local_decoder.xml
 
 Add this:
 
@@ -133,7 +134,7 @@ Verify the bind logs:
 
 Verify the OSSEC alerts:
 
-# grep zdbd12.co.vu /var/oosec/logs/alerts/alerts.log
+# grep zdbd12.co.vu /var/ossec/logs/alerts/alerts.log
 
 You can also copy/paste the query log to ossec-logtest:
 

@@ -133,7 +133,7 @@ Verify the bind logs:
 
 Verify the OSSEC alerts:
 
-# grep zdbd12.co.vu /var/oosec/logs/alerts/alerts.log
+# grep zdbd12.co.vu /var/ossec/logs/alerts/alerts.log
 
 You can also copy/paste the query log to ossec-logtest:
 
